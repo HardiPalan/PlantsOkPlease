@@ -1,0 +1,21 @@
+<div class="feature-hero text-center bg-dark">
+  <h1 class="display-3 fw-bold py-5 text-white">
+    Discover The Joy of Gardening!
+  </h1>
+</div>
+<subscribe></subscribe>
+<div class="container mt-4 mb-4">
+  <h1>Latest Article</h1>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" ng-repeat="article in articles | limitTo:3">
+      <div class="card h-100">
+        <img src="{{article.fimage}}" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">{{article.title}}</h5>
+          <p class="card-text">{{article.shortContent}}</p>
+          <a href="#!/post/{{article.id}}">Read more &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

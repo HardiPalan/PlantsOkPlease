@@ -1,0 +1,54 @@
+a {
+  text-decoration: none;
+  color: #536942;
+}
+
+.main {
+  margin-top: 86px;
+  margin-bottom: 2rem;
+}
+
+.feature-hero {
+  background-image: url("imgs/ALL-PAGE-FETURE-IMAGE.webp");
+  background-size: cover;
+  padding: 8rem 5rem;
+}
+
+.subscribe-block {
+  background-color: #dcf0e1;
+  border-color: #536942;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 3rem;
+  margin: 0 0.1rem;
+}
+
+.sub-email {
+  background: transparent;
+  border-color: #536942;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.my-btn {
+  background-color: #536942;
+  color: white;
+}
+.my-btn:hover,
+.my-btn:active {
+  background-color: #536942;
+  color: white;
+}
+
+.footer {
+  background-color: #dcf0e1;
+  padding: 2rem;
+}
+
+.post-content img {
+  margin: 0 0 1rem;
+  border-radius: 1rem;
+  max-width: 100%;
+  height: auto;
+}

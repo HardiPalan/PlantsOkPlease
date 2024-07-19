@@ -1,0 +1,64 @@
+<div class="container pt-5 mb-5">
+  <div class="row mb-3">
+    <div class="col-md-4">
+      <h3>White Logo</h3>
+      <div class="card">
+        <div class="card-header d-flex">
+          <span class="me-auto">Existing Logo</span>
+          <button class="btn btn-sm btn-success">Change</button>
+        </div>
+        <img
+          src="imgs/PLANTS-OK-PLEASE_LOGO_WHITE_FOR-WEB.png"
+          alt="..."
+          width="200"
+        />
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h3>Color Logo</h3>
+      <div class="card">
+        <div class="card-header d-flex">
+          <span class="me-auto">Existing Logo</span>
+          <button class="btn btn-sm btn-success">Change</button>
+        </div>
+        <img
+          src="imgs/PLANTS-OK-PLEASE_LOGO_COLOR_FOR-WEB.png"
+          alt="..."
+          width="200"
+        />
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h3>Featured Image (Page Header)</h3>
+      <div class="card">
+        <div class="card-header d-flex">
+          <span class="me-auto">Existing Image</span>
+          <button class="btn btn-sm btn-success">Change</button>
+        </div>
+        <img
+          src="imgs/ALL-PAGE-FETURE-IMAGE.webp"
+          class="card-img-bottom"
+          alt="..."
+        />
+      </div>
+    </div>
+  </div>
+  <h3>About Content</h3>
+  <div class="card">
+    <div class="card-header">Existing Content</div>
+    <div class="card-body">
+      <!-- <div ng-bind-html="about"></div> -->
+      <form>
+        <div class="mb-3">
+          <label for="aboutText" class="form-label">Update text</label>
+          <ng-quill-editor
+            id="aboutText"
+            name="about"
+            ng-model="about"
+          ></ng-quill-editor>
+        </div>
+        <button type="submit" class="btn btn-sm btn-success">Update</button>
+      </form>
+    </div>
+  </div>
+</div>
