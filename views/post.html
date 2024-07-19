@@ -1,0 +1,16 @@
+<div class="container pt-5 mb-5">
+  <div class="row justify-content-center">
+    <div class="col col-md-7 post-content" ng-show="errMessage">
+      {{errMessage}}
+    </div>
+    <div class="col col-md-7 post-content" ng-show="articleData">
+      <h1>{{articleData.title}}</h1>
+      <p>
+        <small>{{articleData.published}} - {{articleData.category}}</small>
+      </p>
+      <img ng-src="{{articleData.fimage}}" alt="Rubber-Plant-Benefits" />
+      <div ng-bind-html="articleContent"></div>
+    </div>
+  </div>
+</div>
+<subscribe></subscribe>
